@@ -54,6 +54,18 @@ nav a{
     cursor: pointer;
 }
 
+.btn2{
+    background-color: #469165;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-align: left;
+    cursor: pointer;
+    padding: 16px 36px 16px 16px;
+}
+
 .hero-section{
     background-image: url(assets/hero-bg.png);
     width: 1600px;
@@ -263,3 +275,51 @@ padding: 102px 0px 102px 60px;
 .fa-circle-check {
     color: #30B868;
 }
+
+.ready-section{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 40;
+padding: 120px;
+}
+
+.ready-main{
+width: 1360px;
+height: 384px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+padding: 80px 40px 80px 40px;
+border-radius: 12px;
+background: rgba(247, 246, 242, 1);
+}
+
+.ready-info h1{
+    color: #001931;
+    font-size: 40px;    
+    font-weight: bold;
+    text-align: center;
+    line-height: auto;
+}
+
+.ready-info p{
+    color: #627382;
+    font-size: 16px;    
+    text-align: center;
+    line-height: 24px;
+    margin-top: 16px;
+}
+.ready-btn{
+    text-align: center;
+    margin-top: 24px;
+}
+
+.ready-btn p{
+    margin-top: 16px;
+    color: #627382;
+}
+
