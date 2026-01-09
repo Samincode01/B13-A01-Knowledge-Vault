@@ -185,3 +185,81 @@ margin-top: 44px;
    line-height: 29px;
     text-align: center;
 }
+.diagram{
+width: 1600px;
+height: 840px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 120px;
+}
+.diagram-holder{
+margin-top:120px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 60px;
+
+}
+
+.diagram-body{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 0px;
+padding: 102px 0px 102px 60px;
+}
+.diagram-info h4{
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+}
+
+.diagram-info h2{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: auto;
+    text-align: left;
+    margin-top: 16px;
+}
+
+.diagram-info p{
+    margin: 0px;
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: #627382;
+}
+.diagram-list{
+    margin-top: 40px;
+    padding: 0;
+    list-style: none;
+
+}
+
+.diagram-list li{
+    color: #001931;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+    justify-content: flex-start;
+}
+
+.diagram-list li + li {
+    margin-top: 16px;
+}
+
+.fa-circle-check {
+    color: #30B868;
+}
