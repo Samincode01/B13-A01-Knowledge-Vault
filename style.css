@@ -53,7 +53,10 @@ nav a{
     text-align: left;
     cursor: pointer;
 }
-
+.btn:hover
+{
+    background-color: #2bcc6e;
+}
 .btn2{
     background-color: #469165;
     border: none;
@@ -65,7 +68,10 @@ nav a{
     cursor: pointer;
     padding: 16px 16px;
 }
-
+.btn2:hover
+{
+    background-color: #2bcc6e;
+}
 .btn3{
     background: none;
     border: 1px solid #FFFFFF;
@@ -76,6 +82,19 @@ nav a{
     text-align: left;
     cursor: pointer;
     padding: 16px 16px;
+}
+
+.frame{
+width: 229px;
+height: 35px;
+font-size: 16px;
+font-weight: 500;
+border-radius: 1000px;
+background: rgba(255, 255, 255, 1);
+color: #469165;
+align-items: center;
+justify-content: center;
+gap: 8px;     
 }
 
 .hero-section{
@@ -276,8 +295,13 @@ padding: 102px 0px 102px 60px;
     text-align: left;
     list-style-type: none;
     display: flex;
-    gap: 12px;
+    align-items: flex-start;
+    gap: 6px;
     justify-content: flex-start;
+}
+
+.diagram-list i {
+    margin-top: 2px;
 }
 
 .diagram-list li + li {
